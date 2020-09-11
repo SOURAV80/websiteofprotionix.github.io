@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style2.css">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha256-qvCL5q5O0hEpOm1CgOLQUuHzMusAZqDcAZL9ijqfOdI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha256-nXBV7Gr2lU0t+AwKsnS05DYtzZ81oYTXS6kj7LBQHfM=" crossorigin="anonymous" />
+    <!--  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css"> -->
+    <title>protionix</title>
+</head>
+
+<body>
+    <header>
+        <div class="containers">
+            <input type="checkbox" name="" id="check">
+            
+            <div class="logo-container">
+                <span class="pr-3"><img src="img/logo12.JPG" width ="40px" height="40px" class="rounded-circle"></span><h3 class="logo">Protionix</h3>
+
+            </div>
+
+            <div class="menu-btn">
+                <div class="menu-links">
+                    <ul>
+                        <li class="menu-link" style="--i: .6s">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="menu-link" style="--i: .85s">
+                            <a href="products.html">Products</a>
+                            
+                        </li>
+                        <li class="menu-link" style="--i: .85s">
+                            <a href="Services.html">Services</a>
+                            
+                        </li>
+                        <li class="menu-link" style="--i: 1.1s">
+                            <a href="#">Updates<i class="fas fa-caret-down"></i></a>
+                            <div class="menu-down">
+                                <ul>
+                                    <li class="menu-down-link">
+                                        <a href="Events.html">Event</a>
+                                    </li>
+                                    <li class="menu-down-link">
+                                        <a href="News.html">News</a>
+                                    </li>
+                                    <li class="menu-down-link">
+                                        <a href="career.html">Career</a>
+                                       
+                                    </li>
+                                    <li class="menu-down-link">
+                                        <a href="#">Community</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-link" style="--i: 1.35s">
+                            <a href="About.html">About</a>
+                        </li>
+                        <li class="menu-link" style="--i: .85s">
+                            <a href="contact.html">Contact</a>
+                            
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="log-sign" style="--i: 1.8s">
+                    <a href="login.html" class="login-btn transparent">Log in</a>
+                    
+                </div>
+            </div>
+
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--  ###################### start slider #######################-->
+   <section class="main_slider">
+    <div id="demo" class="carousel slide" data-ride="carousel" data-interval = "2000">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner main_slider_img">
+    <div class="carousel-item active">
+      <img src="img\tim-kabel.jpg" alt="Los Angeles" width="100%" height="580">
+      <div class="carousel-caption text-warning">
+        <h4>Protionix</h4>
+        <p>Turning Aspiration to Acquisition</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="img\main_slide1.jpg" alt="Chicago" width="100%" height="580">
+      <div class="carousel-caption text-warning">
+       
+        <p>we work for innovation and product development!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="img\slide-2.jpg" alt="New York" width="100%" height="580">
+      <div class="carousel-caption text-warning">
+        
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <i class="fas fa-chevron-circle-left" style="font-size: 35px;"></i>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <i class="fas fa-chevron-circle-right" style="font-size: 35px;"></i>
+  </a>
+</div>
+</section>
+<!-- ***********************************    end Slider  ************************************************-->
+
+<!-- ###################################  start Category section ################################################# -->
+<section>
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="text-center text-primary p-4">Categories</h3>
+
+<!-- end owl-slider -->
+   
+<div class="category-menu">
+    <div class="owl-carousel category owl-theme">
+      <button class="item category-item" onclick="openCity(event, 'cad-design')" id="defaultOpen"><img src="img/py.png" width="50px" height="40px">CAD Design</button>
+      <button class="item category-item" onclick="openCity(event, 'robotics')"><img src="img/py.png" width="50px" height="40px">Robotics</button>
+      <button class="item category-item" onclick="openCity(event, 'react')"><img src="img/py.png" width="50px" height="40px">React JS</button>
+      <button class="item category-item" onclick="openCity(event, 'photography')"><img src="img/py.png" width="50px" height="40px">Photography</button>
+      <button class="item category-item" onclick="openCity(event, 'innovator')"><img src="img/py.png" width="50px" height="40px">Innovator</button>
+      <button class="item category-item" onclick="openCity(event, 'python')"><img src="img/py.png" width="50px" height="40px">Python</button>
+      <button class="item category-item" onclick="openCity(event, 'css')"><img src="img/py.png" width="50px" height="40px">CSS</button>
+      <button class="item category-item" onclick="openCity(event, 'iot')"><img src="img/py.png" width="50px" height="40px">IOT</button>
+      <button class="item category-item" onclick="openCity(event, 'ai')"><img src="img/py.png" width="50px" height="40px">AI</button>
+    </div>
+</div>
+
+            </div>
+
+        </div>
+        <!-- row end -->
+
+<div id="cad-design" class="category-content"> 
+    <div class="row">
+            <div class="col-md-4">
+                <img src="img/card-design.jpg" class=" category-image img-fluid">
+            </div>
+            <div class="col-md-8 cat-cont">
+                <h3>CAD Design</h3>
+                <p>This is technology for design and technical documentation, which replaces manual drafting with an automated process.
+
+                If you are a designer, drafter, architect or engineer, you have probably used 2D or 3D CAD programs such as AutoCAD or AutoCAD LT software. These widely used software programs can help you draft construction documentation, explore design ideas, visualise concepts through photorealistic renderings and simulate how a design performs in the real world.
+                </p>
+                <a href="#" class="category-know-more"> Know More</a>
+            </div>
+    </div>
+</div>
+
+
+<div id="robotics" class="category-content">
+    <div class="row">
+        <div class="col-md-4 ">
+            <img src="img/400.png" class=" category-image img-fluid">
+        </div>
+        <div class="col-md-8 cat-cont">
+            <h3>Robotics</h3>
+            <p>This is technology for design and technical documentation, which replaces manual drafting with an automated process.
+
+                If you are a designer, drafter, architect or engineer, you have probably used 2D or 3D CAD programs such as AutoCAD or AutoCAD LT software. These widely used software programs can help you draft construction documentation, explore design ideas, visualise concepts through photorealistic renderings and simulate how a design performs in the real world.
+            </p>
+            <a href="#" class="category-know-more"> Know More</a>
+        </div>
+    </div>
+</div>
+
+<div id="react" class="category-content">
+  <div class="row">
+        <div class="col-md-4 ">
+            <img src="img/card-design.jpg" class=" category-image img-fluid">
+        </div>
+        <div class="col-md-8 cat-cont">
+            <h3>React Js</h3>
+            <p>This is technology for design and technical documentation, which replaces manual drafting with an automated process.
+
+                If you are a designer, drafter, architect or engineer, you have probably used 2D or 3D CAD programs such as AutoCAD or AutoCAD LT software. These widely used software programs can help you draft construction documentation, explore design ideas, visualise concepts through photorealistic renderings and simulate how a design performs in the real world.
+            </p>
+            <a href="#" class="category-know-more"> Know More</a>
+        </div>
+    </div>
+</div>
+<div id="photography" class="category-content">
+  <div class="row">
+        <div class="col-sm-4 ">
+            <img src="img/card-design.jpg" class=" category-image img-fluid">
+        </div>
+        <div class="col-md-8 cat-cont">
+            <h3>Photography</h3>
+            <p>This is technology for design and technical documentation, which replaces manual drafting with an automated process.
+
+                If you are a designer, drafter, architect or engineer, you have probably used 2D or 3D CAD programs such as AutoCAD or AutoCAD LT software. These widely used software programs can help you draft construction documentation, explore design ideas, visualise concepts through photorealistic renderings and simulate how a design performs in the real world.
+            </p>
+            <a href="#" class="category-know-more"> Know More</a>
+        </div>
+    </div>
+</div>
+
+<div id="innovator" class="category-content">
+  <div class="row">
+        <div class="col-md-4 ">
+            <img src="img/card-design.jpg" class=" category-image img-fluid">
+        </div>
+        <div class="col-md-8 cat-cont">
+            <h3>Innovator</h3>
+            <p>This is technology for design and technical documentation, which replaces manual drafting with an automated process.
+
+                If you are a designer, drafter, architect or engineer, you have probably used 2D or 3D CAD programs such as AutoCAD or AutoCAD LT software. These widely used software programs can help you draft construction documentation, explore design ideas, visualise concepts through photorealistic renderings and simulate how a design performs in the real world.
+            </p>
+            <a href="#" class="category-know-more"> Know More</a>
+        </div>
+    </div>
+</div>
+
+<div id="python" class="category-content">
+  <div class="row">
+        <div class="col-md-4 ">
+            <img src="img/card-design.jpg" class=" category-image img-fluid">
+        </div>
+        <div class="col-md-8 cat-cont">
+            <h3>Python</h3>
+            <p>This is technology for design and technical documentation, which replaces manual drafting with an automated process.
+
+                If you are a designer, drafter, architect or engineer, you have probably used 2D or 3D CAD programs such as AutoCAD or AutoCAD LT software. These widely used software programs can help you draft construction documentation, explore design ideas, visualise concepts through photorealistic renderings and simulate how a design performs in the real world.
+            </p>
+            <a href="#" class="category-know-more"> Know More</a>
+        </div>
+    </div>
+</div>
+<div id="css" class="category-content">
+  <div class="row">
+        <div class="col-md-4 ">
+            <img src="img/card-design.jpg" class=" category-image img-fluid">
+        </div>
+        <div class="col-md-8 cat-cont">
+            <h3>CSS</h3>
+            <p>This is technology for design and technical documentation, which replaces manual drafting with an automated process.
+
+                If you are a designer, drafter, architect or engineer, you have probably used 2D or 3D CAD programs such as AutoCAD or AutoCAD LT software. These widely used software programs can help you draft construction documentation, explore design ideas, visualise concepts through photorealistic renderings and simulate how a design performs in the real world.
+            </p>
+            <a href="#" class="category-know-more"> Know More</a>
+        </div>
+    </div>
+</div>
+
+<div id="iot" class="category-content">
+  <div class="row">
+        <div class="col-md-4 ">
+            <img src="img/card-design.jpg" class=" category-image img-fluid">
+        </div>
+        <div class="col-md-8 cat-cont">
+            <h3>Internet of Things</h3>
+            <p>This is technology for design and technical documentation, which replaces manual drafting with an automated process.
+
+                If you are a designer, drafter, architect or engineer, you have probably used 2D or 3D CAD programs such as AutoCAD or AutoCAD LT software. These widely used software programs can help you draft construction documentation, explore design ideas, visualise concepts through photorealistic renderings and simulate how a design performs in the real world.
+            </p>
+            <a href="#" class="category-know-more"> Know More</a>
+        </div>
+    </div> 
+</div>
+
+<div id="ai" class="category-content">
+  <div class="row">
+        <div class="col-md-4 ">
+            <img src="img/card-design.jpg" class=" category-image img-fluid">
+        </div>
+        <div class="col-md-8 cat-cont">
+            <h3>Artificial Intelligence</h3>
+            <p>This is technology for design and technical documentation, which replaces manual drafting with an automated process.
+
+                If you are a designer, drafter, architect or engineer, you have probably used 2D or 3D CAD programs such as AutoCAD or AutoCAD LT software. These widely used software programs can help you draft construction documentation, explore design ideas, visualise concepts through photorealistic renderings and simulate how a design performs in the real world.
+            </p>
+            <a href="#" class="category-know-more"> Know More</a>
+        </div>
+    </div>
+</div>
+
+</div>
+
+</section>
+
+<!-- ****************************************  end Category Section   *************************************************** -->
+<!-- ######################################### Start Our work ethics        ########################################################## -->
+<section>
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-primary text-center p-5">Our Work Ethics</h3>
+            </div>
+            <div class="col-md-6 work-ethics-content">
+                <h4>What we Do</h4>
+                <p>
+                    Protionix Innovation is a startup India recognized under it’s parent company mainly working on educational training and   services.
+                </p>
+                <p>
+                    We aim in turning students Aspirations to their Acquisition providing the students a platform to exhibits their talent.
+                </p>
+                <p>
+
+                Protionix encourages it’s students to innovate beyond the limits and guide them in the path of entrepreneurship
+                </p>
+            </div>
+
+            <div class="col-md-6 work-ethics-card">
+                <div class="row">
+                    <div class="col-md-6 py-3">
+                        <div class="card" >
+                          <div class="card-body">
+                             <img class="work-ethics-card-img" src="img\create_account.png" alt="Card image">
+                            <h4 class="card-title">Create Account</h4>
+                            <p class="card-text">Create an instructor account using social channels to get started in just a few minutes
+                            </p>
+                           
+                          </div>
+                        </div>
+                    </div>
+                   <div class="col-md-6 py-3">
+                        <div class="card" >
+                          <div class="card-body">
+                            <img class="work-ethics-card-img" src="img\goal.png">
+                            <h4 class="card-title">Achieve Your Goal</h4>
+                            <p class="card-text">Just simple as that, you've successfully become an online instructor with your website</p>
+                          </div>
+                        </div>
+                    </div>
+                        
+                    </div>
+                  <!--   <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card" >
+                          <img class="card-img-top" src="img\python-log.jpg" alt="Card image">
+                          <div class="card-body">
+                            <h4 class="card-title">Interact With Students</h4>
+                            <p class="card-text">Your students may ask you a lot of questions about your course. Interact with them
+                            </p>
+                            <a href="#" class="btn btn-primary">See Profile</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card" >
+                          <img class="card-img-top" src="img\python-log.jpg" alt="Card image">
+                          <div class="card-body">
+                            <h4 class="card-title">Achieve Your Goal</h4>
+                            <p class="card-text">Just simple as that, you've successfully become an online instructor with your website</p>
+                          </div>
+                        </div>
+                    </div>
+                        
+                    </div> -->
+                    
+                </div>
+                
+                        
+                    </div>
+                    
+                </div>
+
+     
+</section>
+
+<!-- end work ethics -->
+
+<!-- working team start -->
+<section class="working-team">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="text-center text-primary py-3">Our Working Team</h3>
+            </div>
+            <div class="col-sm-12">
+                    <div class="owl-carousel working owl-theme">
+
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img\profile_linked.png"  width ="100px" height="100px" class="rounded-circle mx-auto">
+                                    <h5 class="text-center"><a href="#">Mr. Raju Singh </a></h5>
+                                    <p class="text-center">Mechanical Design Head</p>
+                                    <ul class="working-dedication">
+                                        <li>B.Tech in Mechanical</li>
+                                        <li>Post Graduate in Aerospace</li>
+                                        <li>Manufacture with 1 year Experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img\profile_linked.png"  width ="100px" height="100px" class="rounded-circle mx-auto">
+                                    <h5 class="text-center"><a href="#">Mr. Raju Singh </a></h5>
+                                    <p class="text-center">Mechanical Design Head</p>
+                                    <ul class="working-dedication">
+                                        <li>B.Tech in Mechanical</li>
+                                        <li>Post Graduate in Aerospace</li>
+                                        <li>Manufacture with 1 year Experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img\profile_linked.png"  width ="100px" height="100px" class="rounded-circle mx-auto">
+                                    <h5 class="text-center"><a href="#">Mr. Raju Singh </a></h5>
+                                    <p class="text-center">Mechanical Design Head</p>
+                                    <ul class="working-dedication">
+                                        <li>B.Tech in Mechanical</li>
+                                        <li>Post Graduate in Aerospace</li>
+                                        <li>Manufacture with 1 year Experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img\profile_linked.png"  width ="100px" height="100px" class="rounded-circle mx-auto">
+                                    <h5 class="text-center"><a href="#">Mr. Raju Singh </a></h5>
+                                    <p class="text-center">Mechanical Design Head</p>
+                                    <ul class="working-dedication">
+                                        <li>B.Tech in Mechanical</li>
+                                        <li>Post Graduate in Aerospace</li>
+                                        <li>Manufacture with 1 year Experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img\profile_linked.png"  width ="100px" height="100px" class="rounded-circle mx-auto">
+                                    <h5 class="text-center"><a href="#">Mr. Raju Singh </a></h5>
+                                    <p class="text-center">Mechanical Design Head</p>
+                                    <ul class="working-dedication">
+                                        <li>B.Tech in Mechanical</li>
+                                        <li>Post Graduate in Aerospace</li>
+                                        <li>Manufacture with 1 year Experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img\profile_linked.png"  width ="100px" height="100px" class="rounded-circle mx-auto">
+                                    <h5 class="text-center"><a href="#">Mr. Raju Singh </a></h5>
+                                    <p class="text-center">Mechanical Design Head</p>
+                                    <ul class="working-dedication">
+                                        <li>B.Tech in Mechanical</li>
+                                        <li>Post Graduate in Aerospace</li>
+                                        <li>Manufacture with 1 year Experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="img\profile_linked.png"  width ="100px" height="100px" class="rounded-circle mx-auto">
+                                    <h5 class="text-center"><a href="#">Mr. Raju Singh </a></h5>
+                                    <p class="text-center">Mechanical Design Head</p>
+                                    <ul class="working-dedication">
+                                        <li>B.Tech in Mechanical</li>
+                                        <li>Post Graduate in Aerospace</li>
+                                        <li>Manufacture with 1 year Experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item"><div class="card">
+                                <div class="card-body">
+                                    <img src="img\profile_linked.png"  width ="100px" height="100px" class="rounded-circle mx-auto">
+                                    <h5 class="text-center"><a href="#">Mr. Raju Singh </a></h5>
+                                    <p class="text-center">Mechanical Design Head</p>
+                                    <ul class="working-dedication">
+                                        <li>B.Tech in Mechanical</li>
+                                        <li>Post Graduate in Aerospace</li>
+                                        <li>Manufacture with 1 year Experience</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container-fluid p-4">
+        <div class="row">
+            <div class="col-sm-4 quick_links">
+                <h3 class="text-light">Quick Links</h3>
+                  <ul class="nav flex-column pl-2">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Services.html">Service</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="products.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="career.html">Career</a>
+                    </li>
+                     <li class="nav-item">
+                      <a class="nav-link" href="#">Community</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Events.html">Events</a>
+                    </li>
+                  </ul>
+                  <div class="social">
+                <h6 class="text-light pl-2">Social Media</h6>
+                  <ul class="nav justify-content social_media">
+                    <li class="nav-item">
+                      <a class="nav-link fab fa-facebook-f" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fab fa-linkedin" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fab fa-twitter" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link fab fa-instagram" href="#"></a>
+                    </li>
+                      <li class="nav-item">
+                      <a class="nav-link fab fa-youtube" href="#"></a>
+                    </li>
+                  </ul>
+                  
+                  </div>
+                  
+            </div>
+            <div class="col-sm-4 about">
+                <h3 class="text-light">About Protionix</h3>
+                <p class="about_text">Protionix Technology Innovation Aims To Provide A Platform For Students To Innovate And Create Things For The Society Making The World A Better Place To Live In. Everyone Has The Creativity In Them.Protionix Technology  Is A Startup India Recognized Under It’s Parent Company Mainly Working On Educational Training And Services. We Aim In Turning Students Aspirations To Their Acquisition Providing The Students A Platform To Exhibits Their Talent. Protionix Technology  Encourages It’s Students To Innovate Beyond The Limits</p>
+                
+            </div>
+            
+            <div class="col-sm-4 contact">
+                <h3 class="text-light">Contact</h3>
+                <ul class="nav flex-column address"> 
+                    <li class="nav-item">
+                      <a class="nav-link text-light" > <i class="fas fa-phone text-secondary"></i>&nbsp;&nbsp;:  +91  7978981812</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light"><i class="fas fa-envelope text-secondary"></i>&nbsp;&nbsp;: prabhas@protionix.com</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" ><i class="fas fa-clock text-secondary"></i>&nbsp;&nbsp;: Business Hours 8:00 am - 7:00 pm</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light"> <i class="fas fa-map-marker-alt text-secondary"></i>&nbsp;&nbsp; : Handrihalli Main road, 2nd Stage,Maruthi Nagar,Peenya,Bengaluru,Karnataka</a>
+                    </li>
+                  </ul>
+                  <div class="download-app border rounded px-3 py-1 mt-2 float-right" style="width: 230px;">
+                    <a href="#" style="text-decoration: none; cursor: pointer;">
+                    <img src="img/gstore1.png " class="img-fluid" width="40px" height="40px"><span class="pl-3 text-light" style="font-size: 14px;">Download App</span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <div class="container-fluid" style="background-color: #21384d;">
+        <div class="row">
+            <div class="col-sm-12">
+        <p class="text-center text-light pt-2" style="font-size: 14px;">Copyright © Protionix Technology 2020</p>
+    </div>
+</div>
+</div>
+
+<!-- ************************   ebd our work Ethics       ************************************************* -->
+   
+
+
+<!-- <script type="text/javascript" src="js/custome.js"></script> -->
+
+       
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha256-251s88HEsEfGL2RufZmRwGohKTHDYr9T+aJAazDwlGY=" crossorigin="anonymous"></script>
+<script src="js/custome.js"></script>
+
+</body>
+
+</html>
